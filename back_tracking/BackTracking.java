@@ -1,6 +1,8 @@
-package generation_methods;
+package back_tracking;
 
 import util.Utils;
+
+import java.util.Arrays;
 
 public class BackTracking {
     public static void generateBinaryStrings(int n) {
@@ -90,4 +92,81 @@ public class BackTracking {
             }
         }
     }
+
+    static class Route {
+        int[] route;
+        int cost;
+        int length;
+
+        Route(int[] r, int c, int l) {
+            route = r;
+            cost = c;
+            length = l;
+        }
+
+        Route append(int next, int cost) {
+            int newLength = this.length + 1;
+            int[] newPath = Arrays.copyOf(this.route, newLength);
+            newPath[newLength - 1] = next;
+            int newCost = this.cost + cost;
+
+            return new Route(newPath, newCost, newLength);
+        }
+
+        public String toString() {
+            StringBuilder res = new StringBuilder();
+            for (int i = 0; i < length; i++) {
+                res.append((route[i] + 1) + "->");
+            }
+            res.append("\nCost: " + cost);
+            return res.toString();
+        }
+    }
+
+    public static void salesmen(int n, int[][] c) {
+        boolean[] reached = new boolean[n];
+        int[] r = {0};
+        Route route = new Route(r, 0, 1);
+        reached[0] = true;
+
+        Route bestRoute = new Route(r, (int)Math.pow(10, 4), 1);
+
+        Route result = salesmenBacktrack(c, n, reached, route, bestRoute);
+        result.cost += c[result.route[result.length - 1]][0];
+
+        System.out.println(result);
+
+    }
+
+
+
+    private static Route salesmenBacktrack (int[][] c, int n, boolean[] reached, Route route, Route bestRoute) {
+        int prevCity = route.route[route.length - 1];
+        if (route.length == n) {
+//            System.out.println("Candidate: " + route);
+//            System.out.println("Cur best route: " + bestRoute);
+            if (route.cost + c[prevCity][0] < bestRoute.cost) {
+                Route newRoute = route.append( 0, c[prevCity][0]);
+//                System.out.println("new best route: " + newRoute);
+                return newRoute;
+            }
+        }
+
+//        System.out.println("trying route: " + route);
+
+        if (route.cost >= bestRoute.cost) return bestRoute;
+
+        for (int i = 1; i < n; i++) {
+            if (!reached[i] && c[prevCity][i] != -1) {
+                reached[i] = true;
+
+                Route newRoute = route.append(i, c[prevCity][i]);
+                bestRoute = salesmenBacktrack(c, n, reached, newRoute, bestRoute);
+                reached[i] = false;
+            }
+        }
+        return bestRoute;
+    }
+
+
 }
