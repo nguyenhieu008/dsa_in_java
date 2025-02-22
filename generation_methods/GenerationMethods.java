@@ -1,12 +1,14 @@
 package generation_methods;
 
+import util.Utils;
+
 public class GenerationMethods {
     public static void generateBinaryStrings(int n) {
         int[] arr = new int[n];
 
         int i = n;
         while (i != -1) {
-            printIntString(arr);
+            Utils.printIntString(arr);
             i = n - 1;
             while (i >= 0 && arr[i] == 1) {
                 i--;
@@ -28,7 +30,7 @@ public class GenerationMethods {
 
         int i = n;
         while (i != 0) {
-            printSubset(arr);
+            Utils.printSubset(arr);
 
             i = k;
             while (i > 0 && arr[i - 1] == n - k + i) {
@@ -40,20 +42,5 @@ public class GenerationMethods {
                 for (int j = i; j < k; j++) arr[j] = arr[j - 1] + 1;
             }
         }
-    }
-
-    private static void printIntString(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
-        }
-        System.out.println();
-    }
-
-    private static void printSubset(int[] arr) {
-        System.out.print("{");
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + ", ");
-        }
-        System.out.println("}");
     }
 }
