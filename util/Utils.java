@@ -22,4 +22,29 @@ public class Utils {
         }
         System.out.println();
     }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    public static void printSortedList(int[] arr) {
+        System.out.print("After sort: ");
+        printList(arr);
+    }
+
+    public static void printList(int[] arr) {
+        for (int v : arr) {
+            System.out.print(v + " ");
+        }
+        System.out.println();
+    }
+
+    public static void printListSegment(int[] arr, int l, int r) {
+        for (int i = l; i <= r; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
 }

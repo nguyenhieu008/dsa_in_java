@@ -1,11 +1,13 @@
 import back_tracking.BackTracking;
+import sorting.*;
+import util.Utils;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] c = new int[][]{{0, 3, 2, 1},
-                                {3, 0, 1, 2},
-                                {2, 1, 0, 4},
-                                {1, 2, 4, 0},};
-        BackTracking.salesmen(4, c);
+        int[] arr = {2, 34, 11, 8, 93, 5, 4, 45, 62, 33, 4};
+        System.out.print("Before sort: ");
+        Utils.printList(arr);
+        Sorting sortAlgo = new QuickSort();
+        sortAlgo.sort(arr);
     }
 }
