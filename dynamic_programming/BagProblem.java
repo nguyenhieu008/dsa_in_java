@@ -12,17 +12,25 @@ public class BagProblem {
             this.w = w;
             this.v = v;
         }
+
+        public String toString() {
+            return String.format("(value: %d, weight: %d)", v, w);
+        }
+
+        public void setWeight(int w) {
+            this.w = w;
+        }
     }
 
     public static void bag(Bag[] bags, int m) {
         int n = bags.length;
         int[][] f = new int[n + 1][m + 1];
-        for (int i = 1; i <= m; i++) {
+        for (int i = 0; i <= m; i++) {
             f[0][i] = 0;
         }
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= m; j++) {
+            for (int j = 0; j <= m; j++) {
                 Bag bag = getBag(bags, i);
                 int bagValue = bag.v;
                 int bagWeight = bag.w;
