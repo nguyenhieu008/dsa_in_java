@@ -3,6 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dsa_in_java.iml" filepath="$PROJECT_DIR$/.idea/dsa_in_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.java_concurrency-build.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.java_concurrency-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.java_concurrency-build~1.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.java_concurrency-build~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.main.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.main~1.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.test.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.test~1.iml" filepath="$PROJECT_DIR$/java_concurrency/.idea/modules/java_concurrency.test~1.iml" />
     </modules>
   </component>
 </project>

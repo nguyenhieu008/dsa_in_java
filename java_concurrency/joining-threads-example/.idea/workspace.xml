@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="933f64c0-4142-4922-8492-edac2cc1783a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/sbt__org_scala_lang_scala_library_2_12_20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/libraries/sbt__scala_sdk_2_12_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/scala_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/java_concurrency.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/java_concurrency.java_concurrency-build~1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/java_concurrency.main~1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules/java_concurrency.test~1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/application-metrics-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../application-metrics-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/atomic-integer-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-integer-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/atomic-reference-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atomic-reference-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/critical-sections-and-synchronization-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../critical-sections-and-synchronization-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/data-races.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data-races-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/deadlocks-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deadlocks-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/high-performance-io-virtual-threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/src/IoBoundApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../high-performance-io-virtual-threads/src/IoBoundApplicationV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/intro-to-virtual-threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/src/VirtualThreadsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-virtual-threads/src/VirtualThreadsWithBlockingCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/introduction-to-critical-sections-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../introduction-to-critical-sections-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/io-bound-application.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/src/IoBoundApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../io-bound-application/src/IoBoundApplicationV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../joining-threads-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/joining-threads-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/optimizing-for-latency-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/resources/many-flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-latency-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/copyright/Top_Developer_Academy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/optimizing-for-throughput-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/resources/performance_test_plan.jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/resources/search_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/resources/war_and_peace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../optimizing-for-throughput-example/src/ThroughputHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/copyright/Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/read-write-lock-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read-write-lock-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/copyright/Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/reentrantlock-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reentrantlock-example/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/copyright/Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-creation-part2-example/thread-creation-part2-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-termination-example.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-termination-example/thread-termination-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread-termination-example/thread-termination-example/thread-termination-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/src/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads-creation-part1/threads-creation-part1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2vRKynIflrtMzLLvdEvmwIPsixF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="6ab19812-7e38-499d-83a3-fa6662fe3759" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="joining-threads-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="933f64c0-4142-4922-8492-edac2cc1783a" name="Changes" comment="" />
+      <created>1744102705002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744102705002</updated>
+      <workItem from="1744102705982" duration="1430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

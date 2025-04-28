@@ -1,0 +1,112 @@
+public class NumberConverter {
+    private static final Map<String, Long> numbers = new HashMap<>(Map.of(
+        "zero", 0L,
+        "one", 1L,
+        "two", 2L,
+        "three", 3L,
+        "four", 4L,
+        "five", 5L,
+        "six", 6L,
+        "seven", 7L,
+        "eight", 8L,
+        "nine", 9L,
+        "ten", 10L,
+        "eleven", 11L,
+        "twelve", 12L,
+        "thirteen", 13L,
+        "fourteen", 14L,
+        "fifteen", 15L,
+        "sixteen", 16L,
+        "seventeen", 17L,
+        "eighteen", 18L,
+        "nineteen", 19L,
+        "twenty", 20L,
+        "thirty", 30L,
+        "forty", 40L,
+        "fifty", 50L,
+        "sixty", 60L,
+        "seventy", 70L,
+        "eighty", 80L,
+        "ninety", 90L
+    ));
+
+    private static final Map<String, Long> multipliers = Map.of(
+        "hundred", 100L,
+        "thousand", 1000L,
+        "million", 1000000L,
+        "billion", 1000000000L,
+        "trillion", 1000000000000L
+    );
+
+    public static long convertToNumber(String text) {
+        if (text == null || text.trim().isEmpty()) {
+            throw new IllegalArgumentException("Input cannot be empty");
+        }
+
+        text = text.toLowerCase().replace("-", " ").replace(" and ", " ");
+        String[] words = text.trim().split("\\s+");
+
+        // Check if it's digit by digit (all words are single digits)
+        boolean isDigitByDigit = true;
+        for (String word : words) {
+            if (!numbers.containsKey(word) || numbers.get(word) > 9) {
+                isDigitByDigit = false;
+                break;
+            }
+        }
+
+        if (isDigitByDigit) {
+            long result = 0;
+            for (String word : words) {
+                result = result * 10 + numbers.get(word);
+            }
+            return result;
+        }
+
+        // Check for year format (e.g., "twenty thirteen" = 2013)
+        if (words.length == 2 &&
+            numbers.containsKey(words[0]) &&
+            numbers.containsKey(words[1]) &&
+            numbers.get(words[0]) <= 90 &&
+            numbers.get(words[0]) >= 20 &&
+            numbers.get(words[1]) <= 99) {
+
+            return numbers.get(words[0]) * 100 + numbers.get(words[1]);
+        }
+
+        // Regular number processing
+        long result = 0;
+        long currentNumber = 0;
+
+        for (String word : words) {
+            if (numbers.containsKey(word)) {
+                currentNumber += numbers.get(word);
+            } else if (multipliers.containsKey(word)) {
+                if (currentNumber == 0) currentNumber = 1;
+                currentNumber *= multipliers.get(word);
+                if (!word.equals("hundred")) {
+                    result += currentNumber;
+                    currentNumber = 0;
+                }
+            }
+        }
+
+        return result + currentNumber;
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        String[] tests = {
+            "two zero one",            // 201
+            "twenty thirteen",         // 2013
+            "forty two",              // 42
+            "one hundred twenty three", // 123
+            "two zero zero three",    // 2003
+            "nineteen ninety nine"    // 1999
+        };
+
+        for (String test : tests) {
+            System.out.printf("%s = %d%n", test, convertToNumber(test));
+        }
+    }
+}

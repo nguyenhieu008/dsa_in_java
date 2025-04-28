@@ -1,28 +1,39 @@
-import back_tracking.BackTracking;
-import dynamic_programming.AnalyseInt;
-import dynamic_programming.BagProblem;
-import dynamic_programming.BagProblem.Bag;
-import sorting.*;
-import util.Utils;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
 
 public class Main {
     public static void main(String[] args) {
-//        int[] arr = {2, 34, 11, 8, 93, 5, 4, 45, 62, 33, 4};
-//        System.out.print("Before sort: ");
-//        Utils.printList(arr);
-//        Sorting sortAlgo = new HeapSort();
-//        sortAlgo.sort(arr);
+        String numberStr = "123";
 
-        Bag[] bags = {
-                new Bag(3, 3),
-                new Bag(4, 4),
-                new Bag(5, 4),
-                new Bag(9, 10),
-                new Bag(4, 4)
-        };
+        // Method 1: Using Integer.parseInt()
+        int number1 = Integer.parseInt(numberStr);
+        System.out.println("Using parseInt: " + number1);
 
-        BagProblem.bag(bags, 11);
+        // Method 2: Using Integer.valueOf()
+        int number2 = Integer.valueOf(numberStr);
+        System.out.println("Using valueOf: " + number2);
 
-//        a.analyse(6);
+        // Method 3: Using new Integer() (deprecated since Java 9)
+        // int number3 = new Integer(numberStr);
+
+        // Handling potential NumberFormatException
+        try {
+            String invalidNumber = "123abc";
+            int number4 = Integer.parseInt(invalidNumber);
+        } catch (NumberFormatException e) {
+            System.out.println("Cannot convert to integer: " + e.getMessage());
+        }
+
+        // Converting with different radix (base)
+        String binaryString = "1010";
+        int binaryToDecimal = Integer.parseInt(binaryString, 2);
+        System.out.println("Binary 1010 to decimal: " + binaryToDecimal); // 10
+
+        String hexString = "1A";
+        int hexToDecimal = Integer.parseInt(hexString, 16);
+        System.out.println("Hex 1A to decimal: " + hexToDecimal); // 26
     }
 }
